@@ -3,11 +3,11 @@
 # import speech_recognition as sr  
 import pyaudio
 
-r = sr.Recognizer()
-r.dynamic_energy_threshold = False
-r.energy_threshold = 400
+# r = sr.Recognizer()
+# r.dynamic_energy_threshold = False
+# r.energy_threshold = 400
 
-index = 2
+# index = 2
 
 p = pyaudio.PyAudio()
 info = p.get_host_api_info_by_index(0)
