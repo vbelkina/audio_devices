@@ -1,6 +1,6 @@
 # small tool to help find what audio devices are available and what their index is.
 
-import speech_recognition as sr  
+# import speech_recognition as sr  
 import pyaudio
 
 r = sr.Recognizer()
